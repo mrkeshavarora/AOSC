@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    /* border: 2px solid black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    /* height: 60vh; */
+    /* width: auto; */
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 40px;
+    color: #120F2D;
+}
+div{
+    /* border: 2px solid black; */
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+nav ul li a:hover{
+    color: #2878EF;
+}
+/* ===================================
+                about use
+   =================================== */
+.about-us-container{
+    /* border: 2px solid red; */
+    display: grid;
+    /* justify-content: space-around; */
+    margin-inline: auto;
+    grid-template-columns: repeat(auto-fit,minmax(500px,auto));
+    max-width: 1200px;
+    margin-inline: auto;
+    /* border: 2px solid black; */
+    /* height: 70vh; */
+
+}
+.about-us-image{
+    /* width: 400px; */
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+.about-us-image img{
+    border-radius: 10%;
+    height: 70vh;
+}
+.about-us-text{
+    /* max-width: 700px; */
+    /* border: 2px solid blue; */
+    padding: 10px 30px;
+    z-index: 20000;
+}
+/* ===============================================
+                    choose aosc
+   =============================================== */
+.choose-aosc{
+    /* height: 100vh; */
+    border: 2px solid red;
+}
+.choose-aosc .cards{
+    display: grid;
+    max-width: 1400px;
+    margin-inline: auto;
+    gap: 30px;
+    padding: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(450px,auto));
+    /* border: 2px solid red; */
+
+}
+.cards .card{
+    border: 1px solid black;
+}
+.card-header{
+    background-color: #1B1E3D;
+    padding: 10px;
+}
+.card-header h3{
+    color: white;
+    /* margin: 4px; */
+}
+.card-bottom{
+    padding: 20px;
+}
+
