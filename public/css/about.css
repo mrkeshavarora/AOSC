@@ -76,7 +76,7 @@ nav ul li a:hover{
    =============================================== */
 .choose-aosc{
     /* height: 100vh; */
-    border: 2px solid red;
+  
 }
 .choose-aosc .cards{
     display: grid;
